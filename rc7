@@ -1,7 +1,7 @@
 -- rc7 remake
 
 local synversion = "V0.4 BYFRON BYPASSED"
-
+local injected = true
 -- this shit function makes my script fucked
 --[[pcall(function()
     local HttpService = game:GetService("HttpService")
@@ -3026,6 +3026,8 @@ local function C_49()
 	local buttons = script.Parent
 	local title = buttons.TitleSynapse
 	local injected =  script.Parent.Parent.Injected.Value
+local injected = true
+
 
 
 	local function GetTextbox()
