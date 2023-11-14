@@ -3026,7 +3026,7 @@ local function C_49()
 	local buttons = script.Parent
 	local title = buttons.TitleSynapse
 	local injected =  script.Parent.Parent.Injected.Value
-local injected = true
+        local injected = true
 
 
 
