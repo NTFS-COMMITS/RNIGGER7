@@ -1,4 +1,4 @@
--- Synapse X Remake made by @chillz_azy (yt)
+-- rc7 remake
 
 local synversion = "V0.4 BYFRON BYPASSED"
 
@@ -3054,22 +3054,9 @@ local function C_49()
 	end)
 	buttons.Attach.MouseButton1Up:Connect(function()
 		if not injected then
-			title.Text = "Synapse X - "..synversion.." (checking...)"
-			task.wait(0.8)
-			title.Text = "Synapse X - "..synversion.." (injecting...)"
-			task.wait(2.3)
-			title.Text = "Synapse X - "..synversion.." (checking whitelist...)"
-			task.wait(1.6)
-			title.Text = "Synapse X - "..synversion.." (scanning...)"
-			task.wait(1.3)
-			title.Text = "Synapse X - "..synversion.." (ready!)"
-			injected = true
-			task.wait(1)
-			title.Text = "Synapse X - "..synversion
+		print('ihateniggers')	
 		else
-			title.Text = "Synapse X - "..synversion.." (already injected!)"
-			task.wait(1)
-			title.Text = "Synapse X - "..synversion
+print('ihateniggers')
 		end
 	end)
 
